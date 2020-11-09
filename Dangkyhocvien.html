@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dangkyhocvien</title>
+    <style>
+        fieldset
+        {
+            width: 400;
+        }
+    </style>
+</head>
+<body>
+<fieldset style="width: 500px; color: blueviolet;background-color: aqua">
+    
+    <form method="get" action="Dangkyhocvien.html">
+        <h1><span style="color: blue">SỞ THÍCH CỦA BẠN</span> </h1>
+        <table>
+            <tr>
+                <td>Họ và tên: </td>
+                <td><input type="text" size=" 45" name="yourname"></td>
+            </tr>
+            <tr>
+                <td>Email: </td>
+                <td><input type="text" size="45" name="email"></td>
+            </tr>
+            <tr>
+                <td>Sở thích</td>
+                <td><input type="checkbox" name="st">Thể thao
+                    <input type="checkbox" name="st">Âm nhạc
+                    <input type="checkbox" name="st">Đọc sách
+                    <br>
+                    <input type="checkbox" name="st">Lướt Web
+                    <input type="checkbox" name="st">Chơi game
+                    <input type="checkbox" name="st">Du lịch
+                </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" name="Gửi thông tin" value="Gửi thông tin">&nbsp;<input type="reset" name="Nhập lại"
+            </tr>
+        </table>
+    </form>
+</fieldset>
+<br>
+<fieldset style="background-color: aquamarine;width: 500px">
+
+    <form method="get" action="Dangkyhocvien.html">
+        <h1><span style="color: blue">ĐĂNG KÝ HỌC VIÊN</span> </h1>
+        <table>
+            <tr>
+                <td>Họ và tên: </td>
+                <td><input type="text" name="yourname" size="45"></td>
+            </tr>
+            <tr>
+                <td>Ngày sinh:</td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td>Giới tính: </td>
+                <td><input type="radio" id="Nam" name="gender" value="Nam">
+                    <label for="Nam">Nam</label><br>
+                    <input type="radio" id="Nữ" name="gender" value="Nữ">
+                    <label for="Nữ">Nữ</label><br>
+                    <input type="radio" id="Khác" name="gender" value="Khác">
+                    <label for="Khác">Khác</label><br><br>
+                </td>
+            </tr>
+            <tr>
+                <td>Địa chỉ: </td>
+                <td><textarea name="address" id="address" cols="42" rows="6"></textarea></td>
+            </tr>
+            <tr>
+                <td>Lớp:</td>
+                <td>
+                    <select name="Class" id="Class">
+                        <option value="- Chọn 1 lớp -">-Chọn 1 lớp-</option>
+                        <option value="C1020G1">C1020G1</option>
+                        <option value="C1020G2">C1020G2</option>
+                        <option value="C0920G1">C0920G1</option>
+                        <option value="C0920G2">C0920G2</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Email</td>
+                <td><input type="email" name="email" size="45"></td>
+            </tr>
+            <tr>
+                <td>Điện thoại</td>
+                <td><input type="number" size="45"> </td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="Submit" name="Đăng ký" value="Đăng ký">&nbsp;<input type="reset" name="Nhập lại"> </td>
+            </tr>
+        </table>
+    </form>
+</fieldset>
+</body>
+</html>
